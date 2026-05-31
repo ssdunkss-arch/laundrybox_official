@@ -1851,3 +1851,37 @@ th, td {
     flex-basis: 88%;
   }
 }
+
+
+/* v20 copy and trust polish */
+.area-small-note {
+  margin: 0 0 18px;
+  text-align: center;
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.review-preview-copy p {
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.visit-card p {
+  word-break: keep-all;
+}
+
+.price-clarity-box p,
+.pricing-alert span {
+  line-height: 1.75;
+}
+
+.local-keywords p {
+  line-height: 1.7;
+}
+
+@media (max-width: 640px) {
+  .area-small-note {
+    text-align: left;
+  }
+}
