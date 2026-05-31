@@ -1164,3 +1164,40 @@ th, td {
     padding: 18px;
   }
 }
+
+
+/* v12 top spacing refinement */
+.hero {
+  padding-top: 58px;
+  padding-bottom: 96px;
+}
+
+.hero-grid {
+  align-items: center;
+}
+
+.site-header {
+  box-shadow: 0 1px 0 rgba(223, 231, 232, 0.85);
+}
+
+@media (max-width: 980px) {
+  .hero {
+    padding-top: 48px;
+    padding-bottom: 82px;
+  }
+}
+
+@media (max-width: 640px) {
+  .hero {
+    padding-top: 36px;
+    padding-bottom: 72px;
+  }
+
+  .header-inner {
+    height: 66px;
+  }
+
+  .nav {
+    top: 66px;
+  }
+}
